@@ -1,0 +1,25 @@
+.demo-card-square.demo-card-square { width: 365px; padding: 9px; } .demo-card-square > .mdl-card__title { color: #fff; padding: 5px; background-image: url(Vid/dilprime.gif); bottom right 1% no-repeat #46B6AC; }
+
+.mdl-textfield--floating-label { color: #fff !important; }
+.demo-card-square.demo-card-square { width: 365px !important; height: 87px !important; }
+
+.mdl-card.mdl-shadow--2dp { width: 365px; padding: 3px; }
+.demo-list-two { width: 375px; }
+
+body { background-color: #121212; }
+i { color: #ffffff; }
+.page-content { color: #ffffff; }
+li { background-color: #ffffff; }
+.mdl-textfield__label:after {
+    background-color: #3100f1 !important; }
+.mdl-textfield__input {
+    border-bottom: 1px solid #ddddff !important; }
+.mdl-textfield__label {
+    color: #b1b1b8 !important; }
+ #rcorners1 {
+   width: 345px !important;
+   height: 110px !important;
+  background-color: white;
+  border-radius: 5px;
+  border: solid #c2c2c2 1pt;
+}

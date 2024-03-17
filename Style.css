@@ -3,7 +3,23 @@
 .mdl-textfield--floating-label { color: #fff !important; }
 .demo-card-square.demo-card-square { width: 365px !important; height: 87px !important; }
 
-.mdl-card.mdl-shadow--2dp { width: 365px; padding: 3px; }
+.mdl-textfield__input {
+    width: 97% !important;
+}
+.mdl-textfield__label:after {
+    width: 97% !important;
+}
+.mdl-textfield__label:before {
+    width: 97% !important;
+}
+button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab {
+    margin-left: -10px !important; /* Passen Sie diesen Wert an, um den Button weiter nach links zu verschieben */
+}
+
+
+
+.mdl-card.mdl-shadow--2dp { 
+  width: 365px; padding: 3px; }
 .demo-list-two { width: 375px; }
 
 body { background-color: #121212; }

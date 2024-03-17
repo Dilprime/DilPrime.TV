@@ -31,7 +31,8 @@
 function setVolumeOff() { 
   vid.volume = 0.0;
 }
-function setVolumeOn() { 
+function setVolumeOn() {
+  vid.muted = false;
   vid.volume = 0.5;
 }
 function playVid() { 

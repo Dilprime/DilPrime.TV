@@ -3,17 +3,8 @@
 .mdl-textfield--floating-label { color: #fff !important; }
 .demo-card-square.demo-card-square { width: 365px !important; height: 87px !important; }
 
-.mdl-textfield__input {
-    width: 97% !important;
-}
-.mdl-textfield__label:after {
-    width: 97% !important;
-}
-.mdl-textfield__label:before {
-    width: 97% !important;
-}
 button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab {
-    margin-left: -10px !important; /* Passen Sie diesen Wert an, um den Button weiter nach links zu verschieben */
+    margin-left: -5px !important; /* Passen Sie diesen Wert an, um den Button weiter nach links zu verschieben */
 }
 
 

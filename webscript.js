@@ -9,7 +9,7 @@ function login() {
         todolist.innerHTML = '<li class="mdl-list__item mdl-list__item--two-line"> <span class="mdl-list__item-primary-content"> <i class="material-icons mdl-list__item-avatar">person</i> <span>DilPrime</span> <span class="mdl-list__item-sub-title">DilPrimeTimes - Golden State Killer</span> </span> <span class="mdl-list__item-secondary-content"> <span class="mdl-list__item-secondary-info"></span> <a class="mdl-list__item-secondary-action" href="#"> <span class="material-icons">check_circle</span></a></li>' + '<iframe src="https://drive.google.com/file/d/1R8t_1RcYNJgdnK5KpqwqzaHuV6bLdNqg/preview" width="340px" height="215px"  allow="autoplay"></iframe>';
 };
 
-   if (username == '#dilprime'){
+   if (username == 'DilPrimeTimes'){
         todolist.innerHTML = '<li class="mdl-list__item mdl-list__item--two-line"> <span class="mdl-list__item-primary-content"> <img src="dilprimeimage.png" class="mdl-list__item-avatar"> <span>DilPrime.TV</span> <span class="mdl-list__item-sub-title">DilPrimeTimes - Golden State Killer</span> </span> <span class="mdl-list__item-secondary-content"> <span class="mdl-list__item-secondary-info"></span> <a class="mdl-list__item-secondary-action" href="#"> <span class="material-icons">check_circle</span></a></li>' + '<iframe src="https://drive.google.com/file/d/1R8t_1RcYNJgdnK5KpqwqzaHuV6bLdNqg/preview" width="340px" height="215px"  allow="autoplay" allowfullscreen></iframe>'
 };
 

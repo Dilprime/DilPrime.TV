@@ -54,8 +54,8 @@ li { background-color: #ffffff; }
     color: #b1b1b8 !important; }
 
 .dprime video {
-            width: 600px; !important/* Breite des Videos */
-            height: 400px; !important/* Höhe des Videos */
+            width: 330px; !important/* Breite des Videos */
+            height: 200px; !important/* Höhe des Videos */
 }
 
 .mdl-card.mdl-shadow--2dp  {

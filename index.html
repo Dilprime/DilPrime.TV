@@ -42,8 +42,10 @@
     </div>
     <h4 class="demo-list-two mdl-list" id="todolist"></h4>
     <script>
-        var vid = document.getElementById("dilprime");
-        vid.play(); // Startet das Video automatisch
+        document.addEventListener('DOMContentLoaded', function() {
+            var vid = document.getElementById("dilprime");
+            vid.play();
+        });
     </script>
 </body>
 </html>

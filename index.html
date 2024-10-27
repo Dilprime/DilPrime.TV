@@ -25,10 +25,11 @@
   <div class="page-content">
             <form onsubmit="login(); return false;">
              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" class="page-content"> <input id="username" class="mdl-textfield__input" type="text" id="todofild"> <label class="mdl-textfield__label" for="todofild">In DilPrime.TV suchen...</label></div>
+             
              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"> <i onclick="setVolumeOff()" class="material-icons">search</i></button>
                <script> 
   var vid = document.getElementById("dilprime.mp4");
-function setVolumeOff() { 
+function setVolumeOff() {
   vid.volume = 0.0;
 }
 function setVolumeOn() {
@@ -48,7 +49,26 @@ function pauseVid() {
     <div w3-include-html="templates/footer.html"></div>
 <head>
   
-<main class="dprime"><div><video class="mdl-card mdl-shadow--2dp" autoplay muted loop id="dilprime.mp4" src="DilPrime.mp4"></div>
+
+    <style>
+        #dilprime {
+            border-radius: 10px; /* Abgerundete Ecken */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schatteneffekt */
+        }
+    </style>
+    <main class="dprime">
+        <div>
+            <video class="mdl-card mdl-shadow--2dp" autoplay muted loop id="dilprime" src="Vid/dilprime.mp4"></video>
+        </div>
+    </main>
+
+    <script>
+        // Ändere die Größe des Videos mit JavaScript
+        var videoElement = document.getElementById('dilprime');
+        videoElement.style.width = '330px'; // Breite des Videos
+        videoElement.style.height = '175px'; // Höhe des Videos
+    </script>
+
 <div id="rcorners1" class="demo-card-square mdl-shadow--2dp">
    <div class="mdl-card__supporting-text">Auf DilPrime.TV haben Sie Zugriff auf viele Premium Inhalte mit höchster Qualität.</div> <div class="mdl-card__actions mdl-card--border">
 

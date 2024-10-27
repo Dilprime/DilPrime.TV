@@ -3,15 +3,13 @@
 .mdl-textfield--floating-label { color: #fff !important; }
 .demo-card-square.demo-card-square { width: 365px !important; height: 87px !important; }
 
-
 button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab {
     margin-left: -5px !important; /* Passen Sie diesen Wert an, um den Button weiter nach links zu verschieben */
 }
-
-
+        
 
 .mdl-card.mdl-shadow--2dp { 
-  width: 365px; padding: 3px; }
+  width: 355px; padding: 3px; }
 .demo-list-two { width: 375px; }
 
 body { background-color: #121212; }
@@ -24,8 +22,21 @@ li { background-color: #ffffff; }
     border-bottom: 1px solid #ddddff !important; }
 .mdl-textfield__label {
     color: #b1b1b8 !important; }
+
+.dprime video {
+            width: 600px; !important/* Breite des Videos */
+            height: 400px; !important/* Höhe des Videos */
+}
+
+.mdl-card.mdl-shadow--2dp  {
+   width: 330px !important;
+   height: 200px !important;
+  background-color: white;
+  border-radius: 5px;
+  border: solid #c2c2c2 1pt;
+}
+
  #rcorners1 {
-     
    width: 310px !important;
    height: 110px !important;
   background-color: white;

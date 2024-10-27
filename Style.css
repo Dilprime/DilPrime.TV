@@ -74,10 +74,3 @@ li { background-color: #ffffff; }
   border: solid #c2c2c2 1pt;
  }
 
- #rcorners1 {
-   width: 310px !important;
-   height: 110px !important;
-  background-color: white;
-  border-radius: 5px;
-  border: solid #c2c2c2 1pt;
-}

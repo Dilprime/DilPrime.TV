@@ -28,13 +28,6 @@ li { background-color: #ffffff; }
             height: 400px; !important/* Höhe des Videos */
 }
 
-.mdl-card.mdl-shadow--2dp  {
-   width: 330px !important;
-   height: 200px !important;
-  background-color: white;
-  border-radius: 5px;
-  border: solid #c2c2c2 1pt;
-}
 
  #rcorners1 {
    width: 310px !important;
